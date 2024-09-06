@@ -64,7 +64,29 @@ parcel clean
 
 ---
 
-### Summary of Commands:
+# Testing Other Screens
+If you want to create a new screen and test it, you will have to update the screen that is being called from `App.js`.
+
+### 1. Open App.js in an Text Editor
+Modify the import statement to use the screen you want to test. Use the path to the file `./<path-to-file>/<file-name>`:
+```
+import PlanScreen from './test-screens/PlanScreen';
+```
+
+### 2. Change the Tag with the Screen Name
+
+```
+export default function App() {
+  return (
+    <View style={[styles.container, { width, height }]}>
+// Modify the line below with the screen name (Ex. <NewScreen />) 
+      <PlanScreen />
+    </View>
+  );
+}
+```
+
+## Summary of Commands:
 
 1. **Install React**:
    ```bash
