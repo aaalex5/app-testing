@@ -5,6 +5,7 @@
 Node.js and npm (Node Package Manager) are required to manage packages and run the project.
 
 - Download and install Node.js from [nodejs.org](https://nodejs.org/). This will install both Node.js and npm.
+- Open Terminal on your Mac computer.
 - Verify installation by running the following commands in your terminal:
   ```bash
   node -v
@@ -23,7 +24,7 @@ Open your terminal and navigate to your project folder.
 Install `react` and `react-dom` packages to start using React in your project.
 
 ```bash
-npm install react react-dom
+npm install react react-dom react-native-web
 ```
 
 ### 4. **Install Parcel as a Development Tool**
@@ -32,11 +33,6 @@ Parcel is a simple, zero-configuration web application bundler.
 1. Install Parcel globally:
    ```bash
    npm install -g parcel-bundler
-   ```
-
-2. Alternatively, you can install it locally as a dev dependency in your project:
-   ```bash
-   npm install parcel-bundler --save-dev
    ```
 
 ### 5. **Running the Project with Parcel**
@@ -70,7 +66,7 @@ parcel clean
 
 1. **Install React**:
    ```bash
-   npm install react react-dom
+   npm install react react-dom react-native-web
    ```
 
 2. **Install Parcel**:
