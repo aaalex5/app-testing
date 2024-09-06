@@ -1,6 +1,8 @@
 # Testing Steps
 ## React Environment Setup & Running with Parcel
 
+**Note: Make sure you download the files in this repository and run the `npm` commands in the project directory that includes these files.**
+
 ### 1. **Install Node.js and npm**
 Node.js and npm (Node Package Manager) are required to manage packages and run the project.
 
